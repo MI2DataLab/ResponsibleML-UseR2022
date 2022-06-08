@@ -602,7 +602,7 @@ By looking at consecutive differences $\mu_{x_1}-\mu$, $\mu_{x_1,x_2}-\mu_{x_1}$
 One is that it is not easy to estimate the conditional expected value. In most implementations, it is assumed that features are independent, and then we can estimate $\mu_{K}$ as an average model response with variables in the set $K$ replaced by corresponding values from observation $x^*$. So the crude estimate would be
 
 $$
-\widehat{\mu}_{K} = \frac 1n \sum_{i=1}^n f(x_1^o, x_2^o, ..., x_p^o),\text{ where }\left\{ {{x_j^o = x_j^*,\text{  if }j \in K} \atop {x_j^o = x_j^i,\text{  if }j \not\in K.} } \right.
+\widehat{\mu}_{K} = \frac 1n \sum_{i=1}^n f(x_1^o, x_2^o, ..., x_p^o),\text{ where } {{x_j^o = x_j^*,\text{  if }j \in K} \atop {x_j^o = x_j^i,\text{  if }j \not\in K.} }
 $$
 
 
