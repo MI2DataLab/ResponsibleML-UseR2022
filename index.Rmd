@@ -78,7 +78,7 @@ The workshop is based on material from a comic book on Responsible Machine Learn
 - English. *The Hitchhiker’s Guide to Responsible Machine Learning.* https://betaandbit.github.io/rml/
 - Spanish. *La Guía del Viajero al Aprendizaje Automático Responsable.* https://betaandbit.github.io/RML_ES/
 - Polish. *Wprowadzenie do Modelowania Predykcyjnego.* https://betaandbit.github.io/miniml/
-- Vietnamese. *4.0.1 Cùng xây dựng Model Machine Learning với Bêta và Bít.* https://betaandbit.github.io/rml_vn
+- Vietnamese. *4.0.1 Cùng xây dựng Model Machine Learning với Bêta và Bít.* https://betaandbit.github.io/RML_VN/
 - Turkish. *Sorumlu Makine Öğrenmesi Rehberi.* https://github.com/BetaAndBit/RML_TR
 
 
