@@ -452,11 +452,6 @@ plot(mp_forest, geom = "roc") + DALEX::theme_ema()
 plot(mp_forest, mp_tree, mp_lmr_rcs, geom = "roc") + DALEX::theme_ema() 
 ```
 
-### Boxplot
-
-```{r, warning=FALSE, message=FALSE, fig.width=4.5, fig.height=2.5}
-plot(mp_forest, geom = "boxplot")
-```
 
 
 ## Your turn
@@ -627,6 +622,15 @@ They may be calculated with a `predict_parts()` function.
 [More info](http://ema.drwhy.ai/shapley.html)
 
 ```{r, message=FALSE, warning=FALSE, fig.width=9, fig.height=3.5}
+ppart_tree <- predict_parts(model_tree, Steve)
+plot(ppart_tree)
+
+ppart_forest <- predict_parts(model_forest, Steve,
+                    keep_distributions = TRUE)
+plot(ppart_forest, plot_distributions = TRUE) + ggtitle("Consecutive conditoning for Forest")+
+  DALEX:::theme_ema_vertical() + 
+  theme( axis.text = element_text(color = "black", size = 12, hjust = 0))
+
 ppart_forest <- predict_parts(model_forest, Steve, type = "shap")
 plot(ppart_forest)
 
@@ -635,10 +639,6 @@ plot(ppart_tree)
 
 ppart_lmr_rcs <- predict_parts(model_lmr_rcs, Steve, type = "shap")
 plot(ppart_lmr_rcs)
-
-ppart_tree <- predict_parts(model_tree, Steve)
-plot(ppart_tree)
-
 
 ppart_forest <- predict_parts(model_forest, Steve, type = "shap")
 pl1 <- plot(ppart_forest) + ggtitle("Shapley values for Ranger")+
@@ -652,13 +652,6 @@ pl2 <- plot(ppart_forest) + ggtitle("Break-down for Ranger")+
 
 library("patchwork")
 pl1 + (pl2 + scale_y_continuous("prediction", limits = c(0,0.4)))
-
-ppart_forest <- predict_parts(model_forest, Steve,
-                    keep_distributions = TRUE)
-plot(ppart_forest, plot_distributions = TRUE) + ggtitle("Consecutive conditoning for Forest")+
-  DALEX:::theme_ema_vertical() + 
-  theme( axis.text = element_text(color = "black", size = 12, hjust = 0))
-
 ```
 
 The `show_boxplots` argument allows you to highlight the stability bars of the estimated attributions.
