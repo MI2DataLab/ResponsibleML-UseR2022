@@ -31,7 +31,7 @@ Meet your guide to ResponsibleML
 
 ## Agenda
 
-Feel free to post any questions during the workshop on slack or in the chat. From time to time we will approach these questions.
+Feel free to post any questions during the workshop in the chat. From time to time we will approach these questions.
 
 - 16:00 About the team
 - 16:10 Agenda + motivation
@@ -64,9 +64,9 @@ We assume that participants are familiar with R and have some basic knowledge of
 
 The workshop consists of 1/3 lecture, 1/3 code examples discussed by the tutor and 1/3 computer-based exercises for participants. 
 
-As the group is large, it may happen that someone will have some problems with the tasks, in such a situation please write about it in the chat or on the slack.
+As the group is large, it may happen that someone will have some problems with the tasks, in such a situation please write about it in the chat.
 
-It may also happen that someone will do the tasks much earlier. In such a situation it would be best to help others who have questions on slack.
+It may also happen that someone will do the tasks much earlier. In such a situation it would be best to help others who have questions.
 
 ## Materials
 
@@ -75,9 +75,9 @@ It may also happen that someone will do the tasks much earlier. In such a situat
 
 The workshop is based on material from a comic book on Responsible Machine Learning. This book can be accessed online and is also available in paperback on amazon and lulu.
 
-- English. *The Hitchhiker’s Guide to Responsible Machine Learning.* https://betaandbit.github.io/rml/
+- English. *The Hitchhiker’s Guide to Responsible Machine Learning.* https://betaandbit.github.io/RML/
 - Spanish. *La Guía del Viajero al Aprendizaje Automático Responsable.* https://betaandbit.github.io/RML_ES/
-- Polish. *Wprowadzenie do Modelowania Predykcyjnego.* https://betaandbit.github.io/miniml/
+- Polish. *Wprowadzenie do Modelowania Predykcyjnego.* https://betaandbit.github.io/MiniML/
 - Vietnamese. *4.0.1 Cùng xây dựng Model Machine Learning với Bêta và Bít.* https://betaandbit.github.io/RML_VN/
 - Turkish. *Sorumlu Makine Öğrenmesi Rehberi.* https://github.com/BetaAndBit/RML_TR
 
