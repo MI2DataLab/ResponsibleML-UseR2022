@@ -867,7 +867,7 @@ Generating a `modelStudio` for an explainer is trivially easy.
 ```{r, eval=FALSE}
 library("modelStudio")
 
-ms <- modelStudio(model_ranger, new_observation = Steve)
+ms <- modelStudio(model_forest, new_observation = Steve)
 ms
 
 ```
