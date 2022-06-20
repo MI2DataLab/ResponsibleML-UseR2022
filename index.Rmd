@@ -29,6 +29,10 @@ Meet your guide to ResponsibleML
 - **Mustafa Cavus**, a postdoc at Warsaw University of Technology, will lead a workshop in Turkish. LI: https://www.linkedin.com/in/mustafacavusphd/
 
 
+<center><img src="IRML.png" width=600></center>
+
+More about MI² https://mi2.ai/.
+
 ## Agenda
 
 Feel free to post any questions during the workshop in the chat. From time to time we will approach these questions.
