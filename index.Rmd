@@ -15,6 +15,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+<p style="margin-bottom:1cm;margin-top:1cm;"><b>Slides and other materials are available at <br><a href="https://tinyurl.com/UseR2022">https://tinyurl.com/UseR2022</a></b></p>
+
+
 # *Part 1: Introduction*
 
 
@@ -28,6 +31,8 @@ Meet your guide to ResponsibleML
 - **Ly Thien**, a student at the Warsaw University of Technology, will conduct a workshop in Vietnamese. LI:   https://www.linkedin.com/in/hthienly/
 - **Mustafa Cavus**, a postdoc at Warsaw University of Technology, will lead a workshop in Turkish. LI: https://www.linkedin.com/in/mustafacavusphd/
 
+
+<br/><br/>
 
 <center><img src="IRML.png" width=600></center>
 
