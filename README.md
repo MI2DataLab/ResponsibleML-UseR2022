@@ -12,6 +12,6 @@ https://mi2datalab.github.io/ResponsibleML-UseR2022/
 
 ## Rmd code 
 
-[https://mi2datalab.github.io/ResponsibleML-UseR2022/](https://raw.githubusercontent.com/MI2DataLab/ResponsibleML-UseR2022/main/index.Rmd)
+[https://raw.githubusercontent.com/MI2DataLab/ResponsibleML-UseR2022/main/index.Rmd](https://raw.githubusercontent.com/MI2DataLab/ResponsibleML-UseR2022/main/index.Rmd)
 
 
